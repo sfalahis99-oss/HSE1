@@ -36,13 +36,13 @@ html[data-lang="en"] .brand-text, html[data-lang="en"] .nav-item span.label{font
 .nav-item.active{background:linear-gradient(135deg,var(--blue-500),var(--blue-400)); color:#fff; font-weight:700; box-shadow:0 6px 18px rgba(43,87,224,.35);}
 .sidebar-footer{padding:14px 18px; font-size:11px; color:var(--muted); border-top:1px solid var(--border);}
 .main{flex:1; min-width:0; display:flex; flex-direction:column;}
-.topbar{background:rgba(15,30,61,.6); backdrop-filter:blur(10px); border-bottom:1px solid var(--border); padding:16px 26px; display:flex; justify-content:space-between; align-items:center; gap:12px; flex-wrap:wrap; position:sticky; top:0; z-index:10;}
+.topbar{background:rgba(15,30,61,.6); backdrop-filter:blur(10px); border-bottom:1px solid var(--border); padding:16px 26px; display:flex; justify-content:space-between; align-items:center; gap:12px; f[...]
 .topbar h2{font-size:19px; color:#fff;}
 .topbar-right{display:flex; align-items:center; gap:10px; flex-wrap:wrap;}
 .user-chip{display:flex; align-items:center; gap:8px; font-size:13.5px; color:var(--muted); background:rgba(255,255,255,.04); padding:7px 12px; border-radius:30px; border:1px solid var(--border);}
 .user-chip b{color:#fff;}
 .user-chip button{background:none; border:none; color:var(--blue-300); font-weight:700; cursor:pointer; font-size:12.5px;}
-.lang-toggle{display:flex; align-items:center; gap:6px; background:rgba(255,255,255,.04); border:1px solid var(--border); padding:7px 14px; border-radius:30px; cursor:pointer; color:var(--muted); font-size:13px; font-weight:700;}
+.lang-toggle{display:flex; align-items:center; gap:6px; background:rgba(255,255,255,.04); border:1px solid var(--border); padding:7px 14px; border-radius:30px; cursor:pointer; color:var(--muted); font[...]
 .lang-toggle:hover{color:#fff; border-color:var(--blue-400);}
 .content{padding:22px 26px; flex:1;}
 .kpi-grid{display:grid; grid-template-columns:repeat(auto-fit,minmax(190px,1fr)); gap:14px; margin-bottom:22px;}
@@ -70,8 +70,8 @@ html[data-lang="en"] .kpi-num{font-family:'Inter',sans-serif;}
 .tag.warn{background:rgba(224,176,75,.14); color:var(--gold);}
 .tag.danger{background:var(--red-bg); color:var(--red);}
 .tag.ok{background:var(--green-bg); color:var(--green);}
-.mod-chip{display:inline-flex; align-items:center; gap:6px; padding:3px 10px; border-radius:20px; font-size:11px; font-weight:700; background:rgba(63,107,255,.12); color:var(--blue-300); white-space:nowrap;}
-.btn{background:linear-gradient(135deg,var(--blue-500),var(--blue-400)); color:#fff; border:none; padding:11px 20px; border-radius:10px; font-weight:700; font-size:13.5px; cursor:pointer; font-family:inherit; display:inline-flex; align-items:center; gap:6px; box-shadow:0 6px 16px rgba(43,87,224,.3); transition:.2s;}
+.mod-chip{display:inline-flex; align-items:center; gap:6px; padding:3px 10px; border-radius:20px; font-size:11px; font-weight:700; background:rgba(63,107,255,.12); color:var(--blue-300); white-spa[...]
+.btn{background:linear-gradient(135deg,var(--blue-500),var(--blue-400)); color:#fff; border:none; padding:11px 20px; border-radius:10px; font-weight:700; font-size:13.5px; cursor:pointer; font-fam[...]
 .btn:hover{transform:translateY(-1px); box-shadow:0 10px 22px rgba(43,87,224,.42);}
 .btn.secondary{background:rgba(255,255,255,.05); color:#fff; border:1px solid var(--border); box-shadow:none;}
 .btn.secondary:hover{background:rgba(255,255,255,.1); transform:none;}
@@ -81,34 +81,34 @@ html[data-lang="en"] .kpi-num{font-family:'Inter',sans-serif;}
 .toolbar input, .toolbar select{padding:10px 14px; border:1px solid var(--border); border-radius:10px; font-family:inherit; font-size:13.5px; background:var(--navy-950); color:#fff;}
 .toolbar input::placeholder{color:var(--muted);}
 table{width:100%; border-collapse:collapse; font-size:13.5px;}
-thead th{text-align:start; padding:12px 14px; background:rgba(255,255,255,.03); color:var(--muted); font-weight:700; font-size:12px; border-bottom:1px solid var(--border); text-transform:uppercase; letter-spacing:.4px;}
+thead th{text-align:start; padding:12px 14px; background:rgba(255,255,255,.03); color:var(--muted); font-weight:700; font-size:12px; border-bottom:1px solid var(--border); text-transform:uppercase; le[...]
 tbody td{padding:12px 14px; border-bottom:1px solid var(--border); vertical-align:top; color:var(--white);}
 tbody tr:hover{background:rgba(63,107,255,.05);}
 .empty{text-align:center; padding:50px 20px; color:var(--muted);}
 .empty .ic{width:40px; height:40px; margin:0 auto 10px; stroke:var(--muted);}
 .overlay{position:fixed; inset:0; background:rgba(2,6,16,.7); backdrop-filter:blur(3px); display:flex; align-items:center; justify-content:center; z-index:50; padding:16px;}
-.modal{background:linear-gradient(165deg,var(--navy-800),var(--navy-900)); border:1px solid var(--border); border-radius:18px; width:100%; max-width:560px; max-height:88vh; overflow-y:auto; padding:0;}
+.modal{background:linear-gradient(165deg,var(--navy-800),var(--navy-900)); border:1px solid var(--border); border-radius:18px; width:100%; max-width:560px; max-height:88vh; overflow-y:auto; padding:0;[...]
 .modal-head{padding:18px 22px; border-bottom:1px solid var(--border); display:flex; justify-content:space-between; align-items:center;}
 .modal-head h3{font-size:17px; color:#fff;}
 .modal-head button{background:none; border:none; font-size:22px; cursor:pointer; color:var(--muted); line-height:1;}
 .modal-body{padding:20px 22px;}
 .field{margin-bottom:14px;}
 .field label{display:block; font-size:13px; font-weight:700; margin-bottom:6px; color:var(--blue-300);}
-.field input, .field select, .field textarea{width:100%; padding:11px 13px; border:1px solid var(--border); border-radius:10px; font-family:inherit; font-size:14px; background:var(--navy-950); color:#fff;}
+.field input, .field select, .field textarea{width:100%; padding:11px 13px; border:1px solid var(--border); border-radius:10px; font-family:inherit; font-size:14px; background:var(--navy-950); color:#[...]
 .field select option{background:var(--navy-900); color:#fff;}
 .field textarea{min-height:80px; resize:vertical;}
 .modal-foot{padding:16px 22px; border-top:1px solid var(--border); display:flex; justify-content:flex-end; gap:10px;}
-.note{background:rgba(63,107,255,.08); border:1px solid rgba(63,107,255,.25); color:var(--blue-300); padding:13px 16px; border-radius:12px; font-size:13px; margin-bottom:16px; display:flex; gap:10px; align-items:flex-start;}
+.note{background:rgba(63,107,255,.08); border:1px solid rgba(63,107,255,.25); color:var(--blue-300); padding:13px 16px; border-radius:12px; font-size:13px; margin-bottom:16px; display:flex; gap:10px; [...]
 .badge-actions{display:flex; gap:6px;}
 .gate-screen{min-height:100vh; display:flex; align-items:center; justify-content:center; background:
   radial-gradient(circle at 20% 20%, rgba(43,87,224,.2), transparent 45%),
   radial-gradient(circle at 80% 80%, rgba(224,176,75,.1), transparent 40%), var(--navy-950); padding:20px; position:relative;}
 .gate-lang{position:absolute; top:20px; inset-inline-end:20px;}
-.gate-box{background:linear-gradient(165deg,var(--navy-800),var(--navy-900)); border:1px solid var(--border); border-radius:20px; width:100%; max-width:420px; padding:34px 30px; text-align:center; box-shadow:0 30px 60px rgba(0,0,0,.4);}
+.gate-box{background:linear-gradient(165deg,var(--navy-800),var(--navy-900)); border:1px solid var(--border); border-radius:20px; width:100%; max-width:420px; padding:34px 30px; text-align:center; box[...]
 .gate-box .brand-mark{width:64px; height:64px; margin:0 auto 16px;}
 .gate-box h2{font-size:19px; margin-bottom:8px; color:#fff;}
 .gate-box p{font-size:13.5px; color:var(--muted); margin-bottom:18px; line-height:1.7;}
-.gate-box input{width:100%; padding:13px 14px; border:1px solid var(--border); border-radius:10px; font-size:15px; text-align:center; margin-bottom:12px; letter-spacing:2px; background:var(--navy-950); color:#fff; font-family:inherit;}
+.gate-box input{width:100%; padding:13px 14px; border:1px solid var(--border); border-radius:10px; font-size:15px; text-align:center; margin-bottom:12px; letter-spacing:2px; background:var(--navy-950)[...]
 .gate-error{color:var(--red); font-size:13px; margin-bottom:10px; min-height:16px;}
 @media (max-width:820px){
   #app{flex-direction:column;}
@@ -127,6 +127,44 @@ tbody tr:hover{background:rgba(63,107,255,.05);}
 <div id="app"></div>
 
 <script>
+/* ============== STORAGE API ============== */
+/**
+ * Initialize window.storage with localStorage-based implementation
+ * Supports get/set/delete operations with optional secure (indexed) storage
+ */
+window.storage = {
+  async get(key, isSecure) {
+    try {
+      const fullKey = `hse:${isSecure ? 'secure:' : ''}${key}`;
+      const value = localStorage.getItem(fullKey);
+      return value ? { value } : null;
+    } catch (e) {
+      console.error('Storage get error:', e);
+      return null;
+    }
+  },
+  async set(key, value, isSecure) {
+    try {
+      const fullKey = `hse:${isSecure ? 'secure:' : ''}${key}`;
+      localStorage.setItem(fullKey, value);
+      return true;
+    } catch (e) {
+      console.error('Storage set error:', e);
+      return false;
+    }
+  },
+  async delete(key, isSecure) {
+    try {
+      const fullKey = `hse:${isSecure ? 'secure:' : ''}${key}`;
+      localStorage.removeItem(fullKey);
+      return true;
+    } catch (e) {
+      console.error('Storage delete error:', e);
+      return false;
+    }
+  }
+};
+
 /* ============== ICONS ============== */
 const ICONS = {
   dashboard:'<path d="M3 3v18h18"/><path d="M7 16v-5"/><path d="M12 16V8"/><path d="M17 16v-8"/>',
@@ -182,16 +220,16 @@ const UI = {
   chooseOption:{ar:'— اختر —', en:'— Select —'},
   dataFooter:{ar:'جميع البيانات محفوظة تلقائياً ومشتركة مع الفريق.', en:'All data saves automatically and is shared with the team.'},
   welcomeTitle:{ar:'مرحباً 👋', en:'Welcome 👋'},
-  welcomeNote:{ar:'أدخل اسمك ليظهر في السجلات التي تضيفها. البيانات (باستثناء الاسم ورمز الدخول) مشتركة بين جميع أعضاء فريق HSE.', en:'Enter your name to appear on records you add. Data (except your name and access code) is shared across all HSE team members.'},
+  welcomeNote:{ar:'أدخل اسمك ليظهر في السجلات التي تضيفها. البيانات (باستثناء الاسم ورمز الدخول) مشتركة بين جميع أعض[...]
   nameLabel:{ar:'الاسم', en:'Name'},
   namePlaceholder:{ar:'مثال: سليمان الفلاحي', en:'e.g. Suleiman Al Falahi'},
   saveContinue:{ar:'حفظ ومتابعة', en:'Save & Continue'},
   gateSetupTitle:{ar:'إعداد رمز الدخول لأول مرة', en:'Set Up Access Code'},
-  gateSetupNote:{ar:'لم يتم تعيين رمز دخول بعد. أنشئ رمزاً وشاركه فقط مع أعضاء فريق HSE المخوّلين.', en:'No access code is set yet. Create one and share it only with authorized HSE team members.'},
+  gateSetupNote:{ar:'لم يتم تعيين رمز دخول بعد. أنشئ رمزاً وشاركه فقط مع أعضاء فريق HSE المخوّلين.', en:'No access code is set yet. Creat[...]
   newCodePlaceholder:{ar:'أدخل رمز دخول جديد', en:'Enter a new access code'},
   createCodeBtn:{ar:'إنشاء الرمز والمتابعة', en:'Create Code & Continue'},
   gateEnterTitle:{ar:'دخول مخوّل فقط', en:'Authorized Access Only'},
-  gateEnterNote:{ar:'هذا الموقع مخصص لأعضاء فريق الصحة والسلامة المصرح لهم. أدخل رمز الدخول للمتابعة.', en:'This site is for authorized HSE team members only. Enter the access code to continue.'},
+  gateEnterNote:{ar:'هذا الموقع مخصص لأعضاء فريق الصحة والسلامة المصرح لهم. أدخل رمز الدخول للمتابعة.', en:'This site is for auth[...]
   codePlaceholder:{ar:'رمز الدخول', en:'Access code'},
   enterBtn:{ar:'دخول', en:'Enter'},
   forgotCode:{ar:'نسيت الرمز؟ إعادة التعيين', en:'Forgot the code? Reset'},
@@ -199,11 +237,11 @@ const UI = {
   enterCodeMsg:{ar:'الرجاء إدخال رمز.', en:'Please enter a code.'},
   saveError:{ar:'تعذر الحفظ، حاول مجدداً.', en:'Could not save, please try again.'},
   saveDataErrorGeneric:{ar:'حدث خطأ أثناء حفظ البيانات، الرجاء المحاولة مرة أخرى.', en:'An error occurred while saving. Please try again.'},
-  resetConfirm:{ar:'سيتم حذف رمز الدخول الحالي، وسيُطلب من الجميع تعيين رمز جديد. هل تريد المتابعة؟', en:'This will delete the current access code and everyone will need to set a new one. Continue?'},
+  resetConfirm:{ar:'سيتم حذف رمز الدخول الحالي، وسيُطلب من الجميع تعيين رمز جديد. هل تريد المتابعة؟', en:'This will delete the cur[...]
   loading:{ar:'جارِ التحقق...', en:'Checking access...'},
   loadingData:{ar:'جارِ تحميل البيانات...', en:'Loading data...'},
-  documentsNote:{ar:'هذا القسم يحفظ عناوين ووصف/روابط المستندات فقط. الصق رابط الملف من Google Drive أو SharePoint في حقل الوصف.', en:'This section stores document titles and description/links only. Paste the file link (Google Drive, SharePoint, etc.) in the description field.'},
-  complaintsNote:{ar:'يمكن ترك حقل "مقدم الشكوى" فارغاً لتقديم شكوى مجهولة الهوية.', en:'You may leave "Complainant" empty to submit an anonymous complaint.'},
+  documentsNote:{ar:'هذا القسم يحفظ عناوين ووصف/روابط المستندات فقط. الصق رابط الملف من Google Drive أو SharePoint في حقل الوصف.'[...]
+  complaintsNote:{ar:'يمكن ترك حقل "مقدم الشكوى" فارغاً لتقديم شكوى مجهولة الهوية.', en:'You may leave "Complainant" empty to submit an anonymous c[...]
   noActivities:{ar:'لا توجد أنشطة مسجلة بعد. ابدأ بإضافة ملاحظة أو حادثة.', en:'No activity recorded yet. Start by adding an observation or incident.'},
   noSeverityData:{ar:'لا توجد بيانات كافية بعد', en:'Not enough data yet'},
   recentActivities:{ar:'آخر الأنشطة', en:'Recent Activities'},
@@ -486,7 +524,7 @@ function applyLangToDoc(){
 async function toggleLang(){
   state.lang = state.lang==='ar' ? 'en' : 'ar';
   applyLangToDoc();
-  try{ await window.storage.set('hse:lang', state.lang, false); }catch(e){}
+  try{ await window.storage.set('lang', state.lang, false); }catch(e){}
   if(state.accessGranted) render(); else checkAccess();
 }
 function langToggleBtn(extraStyle){
@@ -499,16 +537,16 @@ function bindLangToggle(root){
 
 /* ============== ACCESS GATE ============== */
 async function checkAccess(){
-  try{ const l = await window.storage.get('hse:lang', false); if(l && (l.value==='ar'||l.value==='en')) state.lang = l.value; }catch(e){}
+  try{ const l = await window.storage.get('lang', false); if(l && (l.value==='ar'||l.value==='en')) state.lang = l.value; }catch(e){}
   applyLangToDoc();
   const el = document.getElementById('app');
   el.innerHTML = `<div class="gate-screen"><div class="gate-box">${escapeHtml(t('loading'))}</div></div>`;
   let codeRec = null;
-  try{ codeRec = await window.storage.get('hse:accessCode', true); }catch(e){ codeRec = null; }
+  try{ codeRec = await window.storage.get('accessCode', true); }catch(e){ codeRec = null; }
 
   if(!codeRec){ renderGateSetup(); return; }
   let authRec = null;
-  try{ authRec = await window.storage.get('hse:authOK', false); }catch(e){ authRec = null; }
+  try{ authRec = await window.storage.get('authOK', false); }catch(e){ authRec = null; }
   if(authRec && authRec.value === codeRec.value){
     state.accessGranted = true;
     loadStorage();
@@ -537,8 +575,8 @@ function renderGateSetup(){
     const val = el.querySelector('#newCode').value.trim();
     if(!val){ el.querySelector('#gErr').textContent=t('enterCodeMsg'); return; }
     try{
-      await window.storage.set('hse:accessCode', val, true);
-      await window.storage.set('hse:authOK', val, false);
+      await window.storage.set('accessCode', val, true);
+      await window.storage.set('authOK', val, false);
     }catch(e){ el.querySelector('#gErr').textContent=t('saveError'); return; }
     state.accessGranted = true;
     loadStorage();
@@ -557,7 +595,7 @@ function renderGateEnter(realCode){
         <div class="gate-error" id="gErr"></div>
         <input type="text" id="codeInput" placeholder="${escapeHtml(t('codePlaceholder'))}">
         <button class="btn" style="width:100%; justify-content:center;" id="checkBtn">${escapeHtml(t('enterBtn'))}</button>
-        <div style="margin-top:14px;"><button id="resetCodeLink" style="background:none;border:none;color:var(--muted);font-size:12.5px;text-decoration:underline;cursor:pointer;">${escapeHtml(t('forgotCode'))}</button></div>
+        <div style="margin-top:14px;"><button id="resetCodeLink" style="background:none;border:none;color:var(--muted);font-size:12.5px;text-decoration:underline;cursor:pointer;">${escapeHtml(t('[...]
       </div>
     </div>
   `;
@@ -565,15 +603,15 @@ function renderGateEnter(realCode){
   el.querySelector('#resetCodeLink').onclick = async ()=>{
     if(!confirm(t('resetConfirm'))) return;
     try{
-      await window.storage.delete('hse:accessCode', true);
-      await window.storage.delete('hse:authOK', false);
+      await window.storage.delete('accessCode', true);
+      await window.storage.delete('authOK', false);
     }catch(e){}
     checkAccess();
   };
   el.querySelector('#checkBtn').onclick = async ()=>{
     const val = el.querySelector('#codeInput').value.trim();
     if(val !== realCode){ el.querySelector('#gErr').textContent=t('wrongCode'); return; }
-    try{ await window.storage.set('hse:authOK', val, false); }catch(e){}
+    try{ await window.storage.set('authOK', val, false); }catch(e){}
     state.accessGranted = true;
     loadStorage();
   };
@@ -584,13 +622,13 @@ async function loadStorage(){
   const el = document.getElementById('app');
   el.innerHTML = `<div style="padding:60px;text-align:center;color:#93a4c4;">${escapeHtml(t('loadingData'))}</div>`;
   try{
-    const u = await window.storage.get('hse:username', false);
+    const u = await window.storage.get('username', false);
     state.username = u ? u.value : null;
   }catch(e){ state.username = null; }
 
   for(const key of Object.keys(MODULES)){
     try{
-      const r = await window.storage.get('hse:'+key, true);
+      const r = await window.storage.get(key, true);
       state.data[key] = r ? JSON.parse(r.value) : [];
     }catch(e){ state.data[key] = []; }
   }
@@ -600,13 +638,13 @@ async function loadStorage(){
 
 async function saveModule(mod){
   try{
-    const res = await window.storage.set('hse:'+mod, JSON.stringify(state.data[mod]), true);
+    const res = await window.storage.set(mod, JSON.stringify(state.data[mod]), true);
     if(!res) alert(t('saveDataErrorGeneric'));
   }catch(e){ alert(t('saveDataErrorGeneric')); }
 }
 async function saveUsername(name){
   state.username = name;
-  try{ await window.storage.set('hse:username', name, false); }catch(e){}
+  try{ await window.storage.set('username', name, false); }catch(e){}
 }
 
 function openUsernamePrompt(){
@@ -791,7 +829,7 @@ function renderModule(content, mod){
       <div class="panel-body" style="padding-bottom:0;">
         <div class="toolbar">
           <input type="text" id="searchInput" placeholder="${escapeHtml(t('search'))}" value="${escapeHtml(filt.q||'')}">
-          ${statusOptions.length ? `<select id="statusFilter"><option value="">${escapeHtml(t('allStatuses'))}</option>${statusOptions.map(o=>`<option value="${o.v}" ${filt.status===o.v?'selected':''}>${escapeHtml(o[state.lang])}</option>`).join('')}</select>` : ''}
+          ${statusOptions.length ? `<select id="statusFilter"><option value="">${escapeHtml(t('allStatuses'))}</option>${statusOptions.map(o=>`<option value="${o.v}" ${filt.status===o.v?'selected[...]
         </div>
       </div>
       <div style="overflow-x:auto;">
